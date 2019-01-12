@@ -11,19 +11,30 @@
   	<javaee.version>8.0</javaee.version>
   	<spring.version>5.1.3.RELEASE</spring.version>
   </properties>
+  
   <dependencies>
+  
+  	<!-- Link backend project -->
+	<dependency>
+  		<groupId>com.spring</groupId>
+  		<artifactId>shoppingbackend</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	
   	<!-- SPRING-->
-	  <dependency>
+    <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-webmvc</artifactId>
       <version>${spring.version}</version>
     </dependency>
+    
     <!--JSTL-->
 	  <dependency>
       <groupId>jstl</groupId>
       <artifactId>jstl</artifactId>
       <version>1.2</version>
     </dependency>
+    
   	<!-- JAVA EE -->
 	<dependency>
       <groupId>javax</groupId>
@@ -31,6 +42,7 @@
       <version>${javaee.version}</version>
       <scope>provided</scope>
 	</dependency>
+	
 	<!-- JUNIT -->
     <dependency>
       <groupId>junit</groupId>		
@@ -38,7 +50,9 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    
   </dependencies>
+  
   <build>
   <plugins>
   <!-- Update to Latest Version of Java -->
