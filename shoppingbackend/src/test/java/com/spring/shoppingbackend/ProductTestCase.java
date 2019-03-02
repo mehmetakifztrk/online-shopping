@@ -46,15 +46,17 @@ public class ProductTestCase {
 		
 		assertEquals("update sırasında hata olustu",6,productDAO.list().size());
 
-
 	}
 */
-	@Test
+	/*@Test
 	public void testListActiveProducts() {
 	//	assertEquals("yanlis sayi",5,productDAO.listActiveProducts().size());
 		
 	//	assertEquals("yanlis sayi",2,productDAO.listActiveProductsByCategory(1).size());
 		
 		assertEquals("yanlis sayi",2,productDAO.getLatestActiveProducts(2).size());
-	}
+	}*/
+	
+	
+	
 }
