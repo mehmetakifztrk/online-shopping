@@ -62,7 +62,7 @@ public class CategoryTestCase {
 
 	@Test
 	public void testListCategory() {
-		assertEquals("successfully fetch the list",5, categoryDAO.list().size());
+		assertEquals("successfully fetch the list",3, categoryDAO.list().size());
 	}
 //	
 //	@Test

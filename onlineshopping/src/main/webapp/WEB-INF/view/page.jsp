@@ -24,10 +24,14 @@
 
 <script>
 	window.menu = '${title}';
+	window.contextRoot = '${contextRoot}';
 </script>
 
 <!-- Bootstrap core CSS -->
 <link href="${css}/bootstrap.min.css" rel="stylesheet">
+
+<!-- Datatable Bootstrap CSS -->
+<link href="${css}/dataTables.bootstrap.css" rel="stylesheet">
 
 <!-- Bootstrap Readable Theme -->
 <link href="${css}/bootstrap-readable-theme.css" rel="stylesheet">
@@ -69,7 +73,8 @@
 
 		<!-- Bootstrap core JavaScript -->
 		<script src="${js}/jquery.js"></script>
-		<script src="${js}/bootstrap.bundle.min.js"></script>
+		<script src="${js}/jquery.dataTables.js"></script>
+		<script src="${js}/bootstrap.min.js"></script>
 		<script src="${js}/myapp.js"></script>
 	</div>
 </body>
